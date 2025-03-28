@@ -6,9 +6,9 @@ echo "===> UserData $(basename $BASH_SOURCE) Script: Start"
 
 set -ex
 
-EFS_DNS_NAME="fs-0c1f0117448ed3893.efs.us-gov-west-1.amazonaws.com"
+EFS_DNS_NAME="<>.<>.<>-west-1.amazonaws.com"
 MOUNT_POINT="/mnt/efs"
-SVC_ACCT="p0els00"
+SVC_ACCT="<>"
 
 echo "Mounting EFS on Cribl Leader nodes"
 
